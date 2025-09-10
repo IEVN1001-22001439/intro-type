@@ -2,11 +2,11 @@ import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
-import './temasTS/01.ts'
-import './temasTS/02.ts'
-import './temasTS/03.ts'
-import './temasTS/04.ts'
-import './temasTS/05.ts'
+import './temasTS/01-tipos-bas.ts'
+import './temasTS/02-obj-interfaz-arre.ts'
+import './temasTS/03-funciones.ts'
+import './temasTS/04-desestructuracion-obj-arre.ts'
+import './temasTS/05-desestructuracion-funciones.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
