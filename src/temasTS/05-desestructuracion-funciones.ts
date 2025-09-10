@@ -1,5 +1,5 @@
 
-interface Producto{
+export interface Producto{ //export para usar en otro archivo
     nombre:string;
     precio:number;
 }
@@ -25,7 +25,7 @@ const iva=calcularIVA(articulos);
 console.log(`El IVA es: ${iva}`);
 
 //desestructuracion en funciones
-function calcularIVADos(productos:Producto[]):[number,number]{
+export function calcularIVADos(productos:Producto[]):[number,number]{
     let total=0;
     for(let producto of productos){
         total+=producto.precio;
